@@ -1,0 +1,17 @@
+{
+  "stations": [
+    {"id": "KYN", "name": "Kalyan Junction", "platforms": 6},
+    {"id": "TNA", "name": "Thane", "platforms": 4},
+    {"id": "DVL", "name": "Dombivli", "platforms": 4},
+    {"id": "ABH", "name": "Ambernath", "platforms": 3},
+    {"id": "KJT", "name": "Karjat", "platforms": 3},
+    {"id": "KSRA", "name": "Kasara", "platforms": 3}
+  ],
+  "tracks": [
+    {"id": "T1", "from": "KYN", "to": "TNA", "length_km": 22, "max_speed_kph": 100, "direction": "bi", "blockCount": 4},
+    {"id": "T2", "from": "KYN", "to": "DVL", "length_km": 7,  "max_speed_kph": 90,  "direction": "bi", "blockCount": 2},
+    {"id": "T3", "from": "KYN", "to": "ABH", "length_km": 14, "max_speed_kph": 80,  "direction": "bi", "blockCount": 3},
+    {"id": "T4", "from": "KYN", "to": "KJT", "length_km": 30, "max_speed_kph": 100, "direction": "bi", "blockCount": 5},
+    {"id": "T5", "from": "KYN", "to": "KSRA","length_km": 40, "max_speed_kph": 80,  "direction": "bi", "blockCount": 6}
+  ]
+}
