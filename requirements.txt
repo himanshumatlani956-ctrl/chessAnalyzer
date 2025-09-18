@@ -1,0 +1,4 @@
+# Railway Simulation System Requirements
+networkx>=2.8.0
+ortools>=9.4.1874
+numpy>=1.22.0
