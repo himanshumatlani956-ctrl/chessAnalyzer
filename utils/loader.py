@@ -1,6 +1,10 @@
-# utils/loader.py
-from models.railway_graph import RailwayGraph
+import sys
 import os
+
+# Ensure the project root is in sys.path
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
+from models.railway_graph import RailwayGraph
 
 def load_graph_from_default():
     base = os.path.dirname(os.path.dirname(__file__))

@@ -1,4 +1,9 @@
-# main.py
+import sys
+import os
+
+# Ensure the project root is in sys.path
+sys.path.append(os.path.dirname(__file__))
+
 from utils.loader import load_graph_from_default
 import time
 
